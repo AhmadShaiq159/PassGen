@@ -1,0 +1,54 @@
+/* import font family */
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+
+/* default settings */
+* {
+    font-family: 'Tilt Neon', sans-serif;
+}
+
+body {
+    background: rgb(0, 71, 255);
+    background: linear-gradient(90deg, rgb(0 71 255 / 15%) 0%, rgb(9 43 121 / 3%) 50%, rgb(255 0 0 / 15%) 100%);
+}
+
+/* card  */
+.card {
+    background: rgb(0, 71, 255) !important;
+    background: linear-gradient(90deg, rgb(0 71 255 / 15%) 0%, rgb(9 43 121 / 3%) 50%, rgb(255 0 0 / 15%) 100%) !important;
+
+}
+
+.container-fluid h1 a {
+    font-size: 30px;
+    text-decoration: none;
+}
+
+/* hover on navbar heading */
+.container-fluid h1:hover {
+    transform: scale(1.04);
+    transition: 0.2s ease;
+}
+
+.card-header h2 a {
+    font-size: 30px;
+    text-decoration: none;
+}
+
+/* hover on card heading */
+.card-header h2:hover {
+    transform: scale(1.04);
+    transition: 0.2s ease;
+}
+
+/* hover on buttons */
+.btn:hover {
+    transform: scale(1.04);
+    transition: 0.2s ease;
+}
+
+/* hover on copy icon */
+.bi:hover {
+    transform: scale(1.1);
+    transition: 0.2s ease;
+    fill: green;
+}
